@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'login.dart';
 import '../information/termsAndCond.dart';
 import '../database/db_helper.dart';
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 class RegisterPage extends StatefulWidget {
@@ -38,6 +41,7 @@ class _RegisterPageState extends State<RegisterPage> {
   }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   void _submitForm() {
     if (_formKey.currentState!.validate() && agreeToTerms) {
       // Handle registration logic here
@@ -49,6 +53,8 @@ class _RegisterPageState extends State<RegisterPage> {
         const SnackBar(content: Text('You must agree to the terms and conditions.')),
       );
 =======
+=======
+>>>>>>> Stashed changes
   void _submitForm() async {
     if (_formKey.currentState!.validate()) {
       if (!agreeToTerms) {
@@ -110,6 +116,9 @@ class _RegisterPageState extends State<RegisterPage> {
           SnackBar(content: Text('Registration failed: ${e.toString()}')),
         );
       }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   }
