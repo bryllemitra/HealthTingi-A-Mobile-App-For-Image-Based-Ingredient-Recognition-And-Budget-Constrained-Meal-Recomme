@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/home.dart';
-import 'pages/mealDetails.dart';
+//import 'pages/mealDetails.dart';
 import 'pages/reverseIngredient.dart';
 
 void main() {
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const HomePage(title: 'HealthTingi'),
       routes: {
-        '/meal-details': (context) => const MealDetailsPage(),
+        //'/meal-details': (context) => const MealDetailsPage(),
         '/reverse-ingredient': (context) => const ReverseIngredientPage(),
       },
     );
